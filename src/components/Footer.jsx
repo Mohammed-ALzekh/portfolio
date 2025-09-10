@@ -60,7 +60,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* الرسالة في الأسفل */}
+      
         <div className="text-center mt-6">
           <p className="text-[#D0B3FF] text-sm">
             Made with ❤️ using React and Tailwind CSS

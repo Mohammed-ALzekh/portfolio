@@ -10,12 +10,13 @@ import Footer from './components/Footer'
 import BackToTop from './components/BackToTop'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import { Analytics } from '@vercel/analytics/next'
 function App() {
    useEffect(() => {
     AOS.init({
-      duration: 1000, // مدة الانيميشن بالمللي ثانية
-      easing: 'ease-in-out', // نوع easing
-      once: false, // لو بدك الانيميشن يشتغل مرة واحدة أو كل مرة يدخل العنصر للـ viewport
+      duration: 1000, 
+      easing: 'ease-in-out', 
+      once: false, 
     });
   }, []);
   return (
@@ -28,7 +29,7 @@ function App() {
       <Contact />
       <Footer />
       <BackToTop />
-      {/* سيتم إضافة المكونات الأخرى هنا لاحقًا */}
+      <Analytics />
     </div>
   )
 }

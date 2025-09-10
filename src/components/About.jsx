@@ -1,4 +1,4 @@
-import profileImg from "/profile.avif"; // نفس الصورة اللي استخدمناها بالـ Hero
+import profileImg from "/profile.avif"; 
 
 const About = () => {
   return (

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { FaReact, FaNodeJs, FaDatabase, FaPaintBrush } from "react-icons/fa";
-import profileImg from "/profile.avif"; // حولها WebP/AVIF مضغوط
+import profileImg from "/profile.avif"; 
 
 const Hero = () => {
   const fullName = "Mohammed Alzekh";
@@ -90,7 +90,7 @@ const Hero = () => {
               src={profileImg}
               alt="Mohammed Alzekh"
               className="w-full h-full object-cover rounded-full"
-              loading="eager" // مهم للـ LCP
+              loading="eager" 
               fetchpriority="high"
             />
           </div>
