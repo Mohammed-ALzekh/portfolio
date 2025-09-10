@@ -10,7 +10,7 @@ import Footer from './components/Footer'
 import BackToTop from './components/BackToTop'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-import { Analytics } from '@vercel/analytics/next'
+import { Analytics } from '@vercel/analytics/react'
 function App() {
    useEffect(() => {
     AOS.init({
